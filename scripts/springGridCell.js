@@ -49,6 +49,7 @@
    */
   function animateToOpen(duration) {
     var cell = this;
+    cell.isOpen = true;
     setUpCSSTransitions.call(cell, duration);
     cell.element.style.top = cell.openY + 'px';
   }
@@ -60,6 +61,7 @@
    */
   function animateToClosed(duration) {
     var cell = this;
+    cell.isOpen = false;
     setUpCSSTransitions.call(cell, duration);
     cell.element.style.top = cell.closedY + 'px';
   }

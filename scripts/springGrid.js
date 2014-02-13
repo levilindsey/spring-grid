@@ -79,6 +79,8 @@
     // Set the grid's width and height
     grid.openHeight = grid.rowCount * grid.cellHeight + (grid.rowCount + 1) * grid.cellMargin;
     width = grid.columnCount * grid.cellWidth + (grid.columnCount + 1) * grid.cellMargin;
+
+    grid.element.style.height = grid.isOpen ? grid.openHeight + 'px' : '0';
     grid.element.style.width = width + 'px';
 
     updateCellRowsAndColumns.call(grid);
@@ -288,6 +290,10 @@
     createElement.call(grid, parent);
     createCells.call(grid, cellContents);
     resize.call(grid);
+
+    util.listen(window, 'resize', function () {
+      resize.call(grid);
+    });
   }
 
   // Expose this module
