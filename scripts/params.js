@@ -24,7 +24,7 @@
 
   moduleParams.BOUNCE_TYPE = 'random_offsets'; // ('none'|'uniform_all'|'uniform_rows'|'random_offsets')
 
-  moduleParams.OPEN_CLOSE_DURATION = 2; // seconds
+  moduleParams.OPEN_CLOSE_DURATION = 2.5; // seconds
 
   moduleParams.CELL_COUNT = 104;
 
@@ -34,8 +34,8 @@
 
   moduleParams.CELL_HUE_MIN = 0; // from 0 to 360
   moduleParams.CELL_HUE_MAX = 360; // from 0 to 360
-  moduleParams.CELL_SATURATION_MIN = 65; // percentage
-  moduleParams.CELL_SATURATION_MAX = 95; // percentage
+  moduleParams.CELL_SATURATION_MIN = 15; // percentage
+  moduleParams.CELL_SATURATION_MAX = 55; // percentage
   moduleParams.CELL_LIGHTNESS_MIN = 42; // percentage
   moduleParams.CELL_LIGHTNESS_MAX = 58; // percentage
   moduleParams.CELL_OPACITY = 1; // from 0 to 1
@@ -61,11 +61,11 @@
   moduleParams.MIN_BOUNCE_DELAY_RATIO = 0;
   moduleParams.MAX_BOUNCE_DELAY_RATIO = 0.25;
 
-  moduleParams.MIN_BOUNCE_DURATION_RATIO_OFFSET = -0.02;
-  moduleParams.MAX_BOUNCE_DURATION_RATIO_OFFSET = 0.02;
+  moduleParams.MIN_BOUNCE_DURATION_RATIO_OFFSET = -0.01;
+  moduleParams.MAX_BOUNCE_DURATION_RATIO_OFFSET = 0.01;
 
   moduleParams.MIN_BOUNCE_DELAY_RATIO_OFFSET = 0;
-  moduleParams.MAX_BOUNCE_DELAY_RATIO_OFFSET = 0.02;
+  moduleParams.MAX_BOUNCE_DELAY_RATIO_OFFSET = 0.015;
 
   // --- Log parameters --- //
 
