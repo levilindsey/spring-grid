@@ -2,7 +2,7 @@
 
 #### A drop-down, springing grid
 
-_See a version of this running at [www.jackieandlevi.com/wedding/photos](http://www.jackieandlevi.com/wedding/photos)!_
+_See a version of this running at [levi.dev/wedding/photos](https://levi.dev/wedding/photos)!_
 
 _...or at [www.codepen.io/levisl176/pen/LiBzn](http://www.codepen.io/levisl176/pen/LiBzn)!_
 
